@@ -1,0 +1,23 @@
+# Entornos y caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archivos locales o secretos
+.env
+.DS_Store
+
+# Salidas generadas por la aplicacion (se regeneran al ejecutar)
+outputs/
+
+# Exportaciones crudas de Mycodo y copias de seguridad de InfluxDB:
+# son muy grandes y las copias de seguridad contienen tokens y claves. NO se suben.
+data/raw/
+*.zip
+*.tar.gz
+*.bolt.gz
+*.sqlite.gz
+*.manifest
